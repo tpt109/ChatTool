@@ -2,6 +2,10 @@
   "name": "chattool",
   "version": "1.0.0",
   "description": "the software to support for customer",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
   "dependencies": {
     "ejs": "~0.8.5",
     "express": "~3.4.8",
