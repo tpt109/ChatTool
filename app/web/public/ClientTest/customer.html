@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Chat 2.0</title>
+  <link rel="stylesheet" type="text/css" href="/components/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="/components/font-awesome/css/font-awesome.css">
+  <link rel="stylesheet" href="/asserts/css/flags.css">
+  <link rel="stylesheet" href="/asserts/css/app.css">
+</head>
+<body>
+    <div class="col-md-0">
+        <div id="conversation" style="height: 265px">
+          <ul id="msgs" class="list-unstyled"></ul>
+        </div>
+        <form id="chatForm">
+          
+          <input type="text" style="width: 200px;display: inline-block;" class="form-control" placeholder="Your message" id="msg">
+          
+          <input type="submit" name="send" id="send" value="Send" class="btn btn-success">
+
+        </form>
+      </div>
+    </div>
+
+
+  <script src="/components/jquery/dist/jquery.js"></script>
+  <script src="/components/bootstrap/dist/js/bootstrap.js"></script>
+  <script src="/socket.io/socket.io.js"></script>  
+  <script src="/ClientTest/customer.js"></script>
+  <script src="/components/fingerprint/fingerprint.js"></script>
+</body>
+</html>
